@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function () {
     // process bar
-    setTimeout(function() {
+    setTimeout(function () {
         firstQuestion();
         $('.spinner').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -10,31 +10,31 @@ $(document).ready(function() {
     }, 600);
 })
 
-function init(){
+function init() {
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)
     $('#yes').text(CONFIG.btnYes)
     $('#no').text(CONFIG.btnNo)
 }
 
-function firstQuestion(){
+function firstQuestion() {
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        imageUrl: 'img/lookMe.jpg',
+        imageUrl: 'img/lookMe.webp',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/iput-bg.webp")',
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
-      }).then(function(){
+    }).then(function () {
         $('.content').show(200);
-      })
+    })
 }
 
- // switch button position
- function switchButton() {
+// switch button position
+function switchButton() {
     var audio = new Audio('sound/sound1.mp3');
     audio.play();
     var audio1 = new Audio('sound/duck.mp3');
@@ -52,7 +52,7 @@ function firstQuestion(){
 function moveButton() {
     var audio = new Audio('sound/Swish1.mp3');
     audio.play();
-    var x = Math.random() * ($(window).width() - $('#no').width()) * 0.9 ;
+    var x = Math.random() * ($(window).width() - $('#no').width()) * 0.9;
     var y = Math.random() * ($(window).height() - $('#no').height()) * 0.9;
     var left = x + 'px';
     var top = y + 'px';
@@ -64,14 +64,19 @@ init()
 
 var n = 0;
 $('#no').mousemove(function() {
-    if (n < 1)
+    if ($(this).prop('disabled')) return; // Nếu nút bị vô hiệu hóa, không làm gì cả
+
+    if (n < 1) {
         switchButton();
-    if (n > 1)
+        $('#no').prop('disabled', true); // Vô hiệu hóa nút sau lần di chuyển đầu tiên
+    }
+    if (n > 1) {
         moveButton();
+    }
     n++;
 });
 $('#no').click(() => {
-    if (screen.width>=900)
+    if (screen.width >= 900)
         switchButton();
 })
 
@@ -97,7 +102,7 @@ function textGenerate() {
 }
 
 // show popup
-$('#yes').click(function() {
+$('#yes').click(function () {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
@@ -106,7 +111,7 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy?'>",
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/iput-bg.webp")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
@@ -121,13 +126,13 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: CONFIG.btnAccept,
-                background: '#fff url("img/iput-bg.jpg")',
+                background: '#fff url("img/iput-bg.webp")',
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = CONFIG.messLink;
-                  }
+                }
             })
         }
     })

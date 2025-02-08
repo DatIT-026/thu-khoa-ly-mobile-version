@@ -5,15 +5,17 @@
   #no{
     position: absolute;
     display: inline-block;
-    left: 35%; 
+    left: 15%; 
     top: 40vh;
+    padding: 15px;
     -webkit-transition: all 0.1s ease-out;
   }
   #yes{
     position: absolute;
     display: inline-block;
-    left: 70%; 
+    left: 62%; 
     top: 40vh;
+    padding: 15px;
     -webkit-transition: all 0.3s ease-out;
   }
 #bg{
@@ -47,11 +49,14 @@ header h2 {
   font-family: 'Pacifico';
   font-size: 80px;
   text-align: center;
+  margin-top: 50px;
 	margin-bottom: 30px;
+  color: white;
 }
 header h4 {
   font-family: 'Pacifico';
   text-align: center;
+  color: white;
 }
 
 @media only screen and (max-width: 500px) {
@@ -59,29 +64,32 @@ header h4 {
     font-family: 'Pacifico';
     font-size: 45px;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 30px;
+    color: white;
   }
   header h4 {
     font-family: 'Pacifico';
     text-align: center;
     padding: 15px;
+    color: white;
   }
   #no{
     position: absolute;
     display: inline-block;
-    left: 7%; 
-    top: 40vh;
+    left: 9%; 
+    top: 45vh;
     font-size: 14px;
-    padding: 3px;
+    padding: 7px;
     -webkit-transition: all 0.1s ease-out;
   }
   #yes{
     position: absolute;
     display: inline-block;
-    left: 58%; 
-    top: 40vh;
+    left: 60%; 
+    top: 45vh;
     font-size: 14px;
-    padding: 3px;
+    padding: 7px;
     -webkit-transition: all 0.3s ease-out;
   }
 }
