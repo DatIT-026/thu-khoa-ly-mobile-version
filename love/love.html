@@ -10,9 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+  #overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 9999;
+}
+</style>
   </head>
 
   <body>
+    <div id="overlay"></div>
+
     <div class="sp-container">
       <div class="sp-content">
         <div class="sp-globe"></div>
@@ -278,9 +292,21 @@
         }, 10);
       })(document.getElementById("pinkboard"));
     </script>
-    <audio autoplay>
+    <audio id="bg-music" autoplay loop>
       <source src="./music/sound1.mp3" type="audio/mpeg">
-      Your browser does not support the audio tag.
     </audio>
+    
+    <script>
+      document.getElementById('overlay').addEventListener('click', function () {
+        var audio = new Audio('./music/sound1.mp3');
+        audio.play().then(() => {
+          // Start
+          document.getElementById('overlay').style.display = 'none';
+        }).catch((error) => {
+          console.log('Cannot play the audio:', error);
+        });
+      });
+    </script>
+    
   </body>
 </html>
