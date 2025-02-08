@@ -8,6 +8,19 @@ $(document).ready(function () {
             'overflow': 'visible'
         });
     }, 600);
+
+    $('.content').hide();
+
+    $('#confirm-language').click(function () {
+        let selectedLang = $('#language').val();
+        CONFIG = LANG_CONFIG[selectedLang];
+
+        // Ẩn màn hình chọn ngôn ngữ, hiện nội dung chính
+        $('#language-overlay').fadeOut(1, function () {
+            $('.content').fadeIn(300);
+            firstQuestion();
+        });
+    });
 })
 
 function init() {
@@ -30,15 +43,16 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function () {
         $('.content').show(200);
-    })
+        init(); // Gọi lại init() để cập nhật ngôn ngữ
+    });
 }
 
 // switch button position
 function switchButton() {
-    var audio = new Audio('sound/sound1.mp3');
-    audio.play();
     var audio1 = new Audio('sound/duck.mp3');
     audio1.play();
+    var audio = new Audio('sound/sound1.mp3');
+    audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
     var leftY = $('#yes').css("left");
@@ -104,6 +118,8 @@ function textGenerate() {
 // show popup
 $('#yes').click(function () {
     var audio = new Audio('sound/tick.mp3');
+    audio.play();
+    var audio = new Audio('sound/sound1.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
