@@ -13,10 +13,6 @@
   </head>
 
   <body>
-    <audio autoplay>
-      <source src="./music/sound1.mp3" type="audio/mpeg">
-      Your browser does not support the audio tag.
-    </audio>
     <div class="sp-container">
       <div class="sp-content">
         <div class="sp-globe"></div>
@@ -234,7 +230,7 @@
           }
           context.closePath();
           // create the fill
-          context.fillStyle = "#FF5CA4";
+          context.fillStyle = "rgb(225, 12, 168)";
           context.fill();
           // create the image
           var image = new Image();
@@ -282,5 +278,9 @@
         }, 10);
       })(document.getElementById("pinkboard"));
     </script>
+    <audio autoplay>
+      <source src="./sound/sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
   </body>
 </html>
