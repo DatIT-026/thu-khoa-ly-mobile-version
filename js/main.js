@@ -15,6 +15,9 @@ $(document).ready(function () {
         let selectedLang = $('#language').val();
         CONFIG = LANG_CONFIG[selectedLang];
 
+        // Lưu ngôn ngữ vào localStorage để sử dụng trong love.html
+        localStorage.setItem('selectedLanguage', selectedLang);
+
         // Ẩn màn hình chọn ngôn ngữ, hiện nội dung chính
         $('#language-overlay').fadeOut(1, function () {
             $('.content').fadeIn(300);
