@@ -43,16 +43,16 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function () {
         $('.content').show(200);
+        var sound1 = new Audio('sound/sound1.mp3');
+        sound1.play();
         init(); // Gọi lại init() để cập nhật ngôn ngữ
     });
 }
 
 // switch button position
 function switchButton() {
-    var audio1 = new Audio('sound/duck.mp3');
-    audio1.play();
-    var audio = new Audio('sound/sound1.mp3');
-    audio.play();
+    var duck = new Audio('sound/duck.mp3');
+    duck.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
     var leftY = $('#yes').css("left");
@@ -115,12 +115,11 @@ function textGenerate() {
     setTimeout("textGenerate()", 1);
 }
 
+
 // show popup
 $('#yes').click(function () {
-    var audio = new Audio('sound/tick.mp3');
-    audio.play();
-    var audio = new Audio('sound/sound1.mp3');
-    audio.play();
+    var tick = new Audio('sound/tick.mp3');
+    tick.play();
     Swal.fire({
         title: CONFIG.question,
         html: true,
