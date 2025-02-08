@@ -310,9 +310,6 @@
         }, 10);
       })(document.getElementById("pinkboard"));
     </script>
-    <audio id="bg-music" autoplay loop>
-      <source src="./music/sound1.mp3" type="audio/mpeg">
-    </audio>
     
     <script>
       document.getElementById('overlay').addEventListener('click', function () {
@@ -321,7 +318,7 @@
           document.getElementById('overlay').style.display = 'none';
           document.querySelector('.sp-container').style.display = 'block'; // Hiện nội dung trang
         }).catch((error) => {
-          console.log('Không thể phát âm thanh:', error);
+          console.log('Cannot play the audio:', error);
         });
       });
     </script>    

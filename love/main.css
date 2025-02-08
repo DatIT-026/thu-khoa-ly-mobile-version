@@ -426,10 +426,10 @@ canvas {
   0% {
     transform: scale(1);
   }
-  5% {
-    transform: scale(0.7);
+  /*30% {
+    transform: scale(0.8);
   }
-  /* 60% {
+   60% {
           transform: scale(1.2);
       } */
   100% {
