@@ -15,9 +15,6 @@ $(document).ready(function () {
         let selectedLang = $('#language').val();
         CONFIG = LANG_CONFIG[selectedLang];
 
-        // Lưu ngôn ngữ vào localStorage để sử dụng trong love.html
-        localStorage.setItem('selectedLanguage', selectedLang);
-
         // Ẩn màn hình chọn ngôn ngữ, hiện nội dung chính
         $('#language-overlay').fadeOut(1, function () {
             $('.content').fadeIn(300);
@@ -80,7 +77,7 @@ function moveButton() {
 init()
 
 var n = 0;
-$('#no').mousemove(function() {
+$('#no').mousemove(function () {
     if ($(this).prop('disabled')) return; // Nếu nút bị vô hiệu hóa, không làm gì cả
 
     if (n < 1) {

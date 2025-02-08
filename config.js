@@ -7,13 +7,13 @@ const LANG_CONFIG = {
         desc: 'Cậu không trả lời hoặc thoát ra, tức là cậu yêu tớ đó nha :> ',
         btnYes: 'Yêu nhiềuuu <33',
         btnNo: 'Cậu mơ à :333',
-        question:'Nói cho tớ lý do vì sao cậu yêu tớ đii ❤',
+        question: 'Nói cho tớ lý do vì sao cậu yêu tớ đii ❤',
         btnReply: 'Gửi cho tớ ❤',
         reply: 'Tại vì cậu rất đẹp trai.',
         mess: 'Tớ biết mà 🥰. Cảm ơn cậu 😘😘',
         messDesc: 'Tớ có quà cho cậu đây',
         btnAccept: 'Okiiiii lun <3',
-        messLink: 'https://datit-026.github.io/thu-khoa-ly-mobile-version/love.html'
+        messLink: 'https://datit-026.github.io/thu-khoa-ly/love.html'
     },
     en: {
         introTitle: 'Hello ~',
