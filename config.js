@@ -13,7 +13,7 @@ const LANG_CONFIG = {
         mess: 'Tớ biết mà 🥰. Cảm ơn cậu 😘😘',
         messDesc: 'Tớ có quà cho cậu đây',
         btnAccept: 'Okiiiii lun <3',
-        messLink: 'https://datit-026.github.io/thu-khoa-ly/love.html'
+        messLink: 'https://datit-026.github.io/thu-khoa-ly-mobile-version/love.html'
     },
     en: {
         introTitle: 'Hello ~',
@@ -29,7 +29,7 @@ const LANG_CONFIG = {
         mess: 'I knew it 🥰. Thank you 😘😘',
         messDesc: 'I have a gift for you',
         btnAccept: 'Okiiiii <3',
-        messLink: 'https://datit-026.github.io/thu-khoa-ly/love.html'
+        messLink: 'https://datit-026.github.io/thu-khoa-ly-mobile-version/love.html'
     }
 }
 
