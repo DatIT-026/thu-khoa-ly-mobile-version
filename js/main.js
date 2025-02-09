@@ -43,8 +43,14 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function () {
         $('.content').show(200);
-        var sound1 = new Audio('sound/sound1.mp3');
-        sound1.play();
+        function playRandomSound() {
+            var sounds = ['sound/sound1.mp3', 'sound/sound2.mp3', 'sound/sound3.mp3'];
+            var randomSound = sounds[Math.floor(Math.random() * sounds.length)];
+            var audio = new Audio(randomSound);
+            audio.loop = true; // Phát lặp lại
+            audio.play();
+        }
+        playRandomSound();
         init(); // Gọi lại init() để cập nhật ngôn ngữ
     });
 }
