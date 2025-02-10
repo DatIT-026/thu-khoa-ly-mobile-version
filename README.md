@@ -17,7 +17,7 @@ You can choose one of these sources to download and install UrGift:
 
 
 ## Explore more?
-You can explore our web page [here](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift). This site shows more information and changelog of UrGift (if any updates are required).
+You can explore our web page [here](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift). This site shows more information of UrGift.
 
 ## Contact us
 Please feel free to reach out to me through these channels.
