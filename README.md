@@ -17,7 +17,7 @@ FireHelper's [Privacy Policy](https://datit-026.github.io/DatIT/support/privacy)
 Please feel free to reach out to me through these channels.
 
 - Email: firehelper0609@gmail.com
-- Social Media: [Facebook](https://www.facebook.com/datit.dev/)
+- Social Media: [Facebook](https://www.facebook.com/hanguyentiendat2006)
 
 ## Disclaimer
 This project is licensed under the [MIT License](LICENSE).
