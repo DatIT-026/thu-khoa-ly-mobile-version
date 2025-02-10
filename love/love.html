@@ -327,6 +327,47 @@
       });
     });
   </script>
+
+<script>
+  document.getElementById('click-text').addEventListener('click', function () {
+      document.getElementById('overlay').style.display = 'none';
+      document.querySelector('.sp-container').style.display = 'block';
+
+      setTimeout(function () {
+          let overlay = document.createElement("div");
+          overlay.id = "transparent-layer";
+          overlay.style.position = "fixed";
+          overlay.style.top = "-100px";
+          overlay.style.left = "0";
+          overlay.style.width = "100%";
+          overlay.style.height = "100%";
+          overlay.style.background = "rgba(0, 0, 0, 0)";
+          overlay.style.display = "flex";
+          overlay.style.justifyContent = "center";
+          overlay.style.alignItems = "flex-end";
+          overlay.style.paddingBottom = "50px";
+          overlay.style.zIndex = "10000";
+          document.body.appendChild(overlay);
+  
+          let button = document.createElement("button");
+          button.id = "redirect-button";
+          button.innerText = "Go to Google";
+          button.style.padding = "10px 20px";
+          button.style.fontSize = "18px";
+          button.style.background = "rgb(225, 12, 168)";
+          button.style.color = "#fff";
+          button.style.border = "none";
+          button.style.borderRadius = "5px";
+          button.style.cursor = "pointer";
+          button.style.zIndex = "10001";
+          button.onclick = function () {
+              window.location.href = "https://www.google.com";
+          };
+          overlay.appendChild(button);
+      }, 24000);
+  });
+</script>
+
 </body>
 
 </html>
