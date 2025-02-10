@@ -25,7 +25,7 @@ const LANG_CONFIG = {
         btnNo: 'Keep dreaming :333',
         question: 'Tell me why you love me ❤',
         btnReply: 'Send to me ❤',
-        reply: 'Because you are so cute!',
+        reply: 'Cuz u are so cute!',
         mess: 'I knew it 🥰. Thank you 😘😘',
         messDesc: 'I have a gift for you',
         btnAccept: 'Okiiiii <3',

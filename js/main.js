@@ -14,6 +14,7 @@ $(document).ready(function () {
     $('#confirm-language').click(function () {
         let selectedLang = $('#language').val();
         CONFIG = LANG_CONFIG[selectedLang];
+        CONFIG.lang = selectedLang;
 
         // Ẩn màn hình chọn ngôn ngữ, hiện nội dung chính
         $('#language-overlay').fadeOut(1, function () {
@@ -44,12 +45,17 @@ function firstQuestion() {
     }).then(function () {
         $('.content').show(200);
         function playRandomSound() {
-            var sounds = ['sound/sound1.mp3', 'sound/sound2.mp3', 'sound/sound3.mp3', 'sound/sound4.mp3'];
+            var sounds;
+            if (CONFIG.lang === "en") {
+                sounds = ['sound/sound3.mp3', 'sound/sound4.mp3'];
+            } else {
+                sounds = ['sound/sound1.mp3', 'sound/sound2.mp3'];
+            }
             var randomSound = sounds[Math.floor(Math.random() * sounds.length)];
             var audio = new Audio(randomSound);
-            audio.loop = true; // Phát lặp lại
+            audio.loop = true;
             audio.play();
-        }
+        }        
         playRandomSound();
         init(); // Gọi lại init() để cập nhật ngôn ngữ
     });

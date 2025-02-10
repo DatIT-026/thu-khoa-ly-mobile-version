@@ -419,7 +419,7 @@ canvas {
   display: block;
   position: absolute;
   transform: translate(-50%, -50%);
-  animation: heart 1.5s ease infinite;
+  animation: heart 1s ease infinite;
 }
 
 @keyframes heart {
