@@ -61,7 +61,7 @@ p.demos {
   line-height: 100px;
   height: 90px;
   margin-top: -68px;
-  font-size: 15px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   color: transparent;
@@ -110,11 +110,11 @@ p.demos {
 @keyframes Frame-3 {
   150% {
     color: rgb(225, 12, 168);
-    font-size: 13.5px;
+    font-size: 17.5px;
   }
   50% {
     color: rgb(225, 12, 168);
-    font-size: 13.5px;
+    font-size: 17.5px;
   }
   100% {
     color: transparent;
@@ -139,7 +139,7 @@ p.demos {
   }
 }
 .sp-container h2.frame-4 {
-  font-size: 15px;
+  font-size: 20px;
   -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   -ms-animation-delay: 9s;
@@ -208,7 +208,7 @@ p.demos {
   height: 100px;
   background: #fff;
   color: rgb(225, 12, 168);
-  font-size: 13.5px;
+  font-size: 17.5px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

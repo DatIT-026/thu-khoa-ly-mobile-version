@@ -44,7 +44,7 @@ function firstQuestion() {
     }).then(function () {
         $('.content').show(200);
         function playRandomSound() {
-            var sounds = ['sound/sound1.mp3', 'sound/sound2.mp3', 'sound/sound3.mp3'];
+            var sounds = ['sound/sound1.mp3', 'sound/sound2.mp3'];
             var randomSound = sounds[Math.floor(Math.random() * sounds.length)];
             var audio = new Audio(randomSound);
             audio.loop = true; // Phát lặp lại
@@ -84,11 +84,8 @@ init()
 
 var n = 0;
 $('#no').mousemove(function () {
-    if ($(this).prop('disabled')) return; // Nếu nút bị vô hiệu hóa, không làm gì cả
-
     if (n < 1) {
         switchButton();
-        $('#no').prop('disabled', true); // Vô hiệu hóa nút sau lần di chuyển đầu tiên
     }
     if (n > 1) {
         moveButton();
