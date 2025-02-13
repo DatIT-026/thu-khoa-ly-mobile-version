@@ -13,7 +13,7 @@ You can choose one of these sources to download and install UrGift:
 
 - Google Play (not available yet)
 - Our [web page](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift).
-- Direct Download [link]().
+- Direct Download [link](https://github.com/DatIT-026/thu-khoa-ly-mobile-version/releases/tag/UrGift).
 
 
 ## Explore more?
@@ -24,6 +24,12 @@ Please feel free to reach out to me through these channels.
 
 - Email: firehelper0609@gmail.com
 - Social Media: [Facebook](https://www.facebook.com/hanguyentiendat2006)
+
+## Music Used in This Project
+- [Juky San X REDT - Phải Chăng Em Đã Yêu](https://www.youtube.com/watch?v=O81_4VAson4)
+- [Tình Ca Tình Ta - kis](https://www.youtube.com/watch?v=R0jbjEX0dBY)
+- [Noah Alejandre & Meg Palmitos - First Date Song](https://www.youtube.com/watch?v=oAW0ZmBMSoA)
+- [Elliot James Reay - I Think They Call This Love](https://www.youtube.com/watch?v=e1mOmdykmwI)
 
 ## Privacy Policy & Disclaimer
 FireHelper's [Privacy Policy](https://datit-026.github.io/DatIT/support/privacy).
