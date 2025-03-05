@@ -3,7 +3,7 @@
 After February 19, 2026, we will no longer provide security updates or technical support for the **Thu-Khoa-Ly Project (Mobile Version)**.
 
 ## Info
-This is the mobile version of the [Thu Khoa Ly Project](https://github.com/DatIT-026/thu-khoa-ly), now renamed UrGift. This version is not only optimized for mobile user, but also includes new features not available in the web version.
+This is a mobile version of the [Thu Khoa Ly Project](https://github.com/DatIT-026/thu-khoa-ly), now renamed UrGift. This version is not only optimized for mobile user, but also includes new features not available in the web version.
 
 ## Requirements (For Android User Only)
 Android 6.0 or higher required.
