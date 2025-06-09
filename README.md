@@ -12,8 +12,8 @@ Android 6.0 or higher required.
 You can choose one of these sources to download and install UrGift:
 
 - Google Play (not available yet)
-- Our [web page](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift).
-- Direct Download [link](https://github.com/DatIT-026/thu-khoa-ly-mobile-version/releases/tag/UrGift).
+- Our [web page](https://datit-026.github.io/dattos-archive/archiver/urgift/).
+- Direct Download [link](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/UrGift.apk").
 
 
 ## Explore more?
