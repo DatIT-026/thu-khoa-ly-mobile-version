@@ -12,7 +12,7 @@ Android 6.0 or higher required.
 You can choose one of these sources to download and install UrGift:
 
 - Google Play (not available yet)
-- Our [main page](https://datit-026.github.io/dattos-archive/archiver/urgift/). Alternative web page [here](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift)
+- Our [main page](https://datit-026.github.io/dattos-archive/archiver/urgift/). Alternative web page [here](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift).
 - Direct Download [link](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/UrGift.apk).
 
 
@@ -30,6 +30,7 @@ Please feel free to reach out to me through these channels.
 - [Tình Ca Tình Ta - kis](https://www.youtube.com/watch?v=R0jbjEX0dBY)
 - [Noah Alejandre & Meg Palmitos - First Date Song](https://www.youtube.com/watch?v=oAW0ZmBMSoA)
 - [Elliot James Reay - I Think They Call This Love](https://www.youtube.com/watch?v=e1mOmdykmwI)
+and more
 
 ## Privacy Policy & Disclaimer
 FireHelper's [Privacy Policy](https://datit-026.github.io/DatIT/support/privacy).
