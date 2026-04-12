@@ -1,4 +1,4 @@
-# ⚠️ Support for UrGift will end in February 2026
+# ⚠️ Support for UrGift has ended in February 2026
 
 After February 19, 2026, we will no longer provide security updates or technical support for the **Thu-Khoa-Ly Project (Mobile Version)**.
 
