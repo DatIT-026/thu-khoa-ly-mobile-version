@@ -11,9 +11,9 @@ Android 6.0 or higher required.
 ## Installation
 You can choose one of these sources to download and install UrGift:
 
-- Google Play (not available yet)
-- Our [main page](https://dattos-archive.click/archivers/urgift/). Alternative web page [here](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/urgift).
-- Direct Download [link](https://datit-026.github.io/DatIT/Blog/2025/urgift-app/UrGift.apk).
+- Google Play (not available)
+- Our [main page](https://datit-026.github.io/DatIT/404). Alternative web page [here](https://datit-026.github.io/DatIT/404).
+- Direct Download link: (not available).
 
 
 ## Explore more?
@@ -22,8 +22,8 @@ You can explore our [web page](https://datit-026.github.io/dattos-archive/ardchi
 ## Contact us
 Please feel free to reach out to me through these channels.
 
-- Email: firehelper0609@gmail.com
-- Social Media: [Facebook](https://www.facebook.com/hanguyentiendat2006)
+- Email: (End of Support)
+- Social Media: (End of Support)
 
 ## Music Used in This Project
 - [Juky San X REDT - Phải Chăng Em Đã Yêu](https://www.youtube.com/watch?v=O81_4VAson4)
